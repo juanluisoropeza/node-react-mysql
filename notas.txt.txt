@@ -1,0 +1,13 @@
+creando base de datos mysql en docker:
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=admin123 -e MYSQL_DATABASE=tasksdb -p 3306:3306 -d mysql
+
+
+
+
+1. Crear un clase llamada “libro” book
+2. El libro tiene un titulo, una descripción y un numero de páginas 
+3. Crear una API Rest con 3 métodos. 
+4. Un método POST que inserte 1 libro en una variable global 
+5. Un primer método GET que devuelva los libros guardados en la variable global 
+6. Un segundo método GET que devuelva los libros pero con el número de páginas multiplicado 
+7. Un método para eliminar el libro insertado por un index correspondiente al index del array de la variable global.
